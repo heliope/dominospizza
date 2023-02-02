@@ -1,20 +1,23 @@
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 nav {
   display: flex;
   background-color: #006491;
   justify-content: center;
   align-items: center;
   min-height: 60px;
+  margin-bottom: 50px;
 }
 
 nav h1{
   margin: 0;
 }
 
-nav ul{
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
+
 
 nav h1 img{
   width: 40px;
@@ -43,4 +46,15 @@ nav ul li a{
   text-transform: uppercase;
   font-weight: bold;
   font-size: 90%;
+}
+
+#highlights{
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+#highlights li{
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
