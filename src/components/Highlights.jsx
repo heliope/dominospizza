@@ -12,9 +12,9 @@ export default function Highlights() {
 
   return (
     <main id="highlights">
-      <ul>
+      <ul >
         {highlights.map((highlight, index) => (
-          <li ke={index}>
+          <li key={index}>
             <a href={ highlight.url }>
               <img src= {highlight.image} alt={highlight.description} />
             </a>
